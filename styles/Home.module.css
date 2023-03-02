@@ -1,8 +1,16 @@
+
 .container {
   padding: 0 2rem;
+  color: #2200ff;
 }
 
 .main {
+  background-color: #ff7700;
+  color: #000000;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -16,7 +24,7 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #ff0000;
   justify-content: center;
   align-items: center;
 }
@@ -29,7 +37,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -53,7 +61,7 @@
 .description {
   margin: 4rem 0;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .code {
@@ -79,7 +87,7 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  border: 1px solid #ff0000;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
@@ -88,18 +96,18 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
+  color: #fcfcfc;
   border-color: #0070f3;
 }
 
 .card h2 {
-  margin: 0 0 1rem 0;
+  margin: 0 0 0 0;
   font-size: 1.5rem;
 }
 
 .card p {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 
@@ -118,10 +126,10 @@
 @media (prefers-color-scheme: dark) {
   .card,
   .footer {
-    border-color: #222;
+    border-color: #ff0303;
   }
   .code {
-    background: #111;
+    background: #ff0000;
   }
   .logo img {
     filter: invert(1);
